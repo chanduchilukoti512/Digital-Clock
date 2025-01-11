@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black; /* Full black background */
+  }
+  
+  .heading {
+    font-size: 36px;
+    color: gold; /* Gold color for the heading */
+    margin-bottom: 20px;
+  }
+  
+  .clock {
+    font-size: 60px;
+    color: gold; /* Gold color for the clock numbers */
+    background-color: black; /* Black background for the clock */
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.7); /* Gold shadow effect */
+  }
+  
